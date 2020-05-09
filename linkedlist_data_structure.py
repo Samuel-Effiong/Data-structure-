@@ -490,42 +490,4 @@ class Queue(DoublyLinkedList):
             return self.get_head()
         return "Queue is empty"
 
-# L = PositionalADT()
-# for i in range(5):
-#    L.add(i)
 
-# for a in L:
-#    print(a)
-
-# M = PositionalADT()
-# for i in range(5, 11):
-#    M.add(i)
-
-# for a in M:
-#    print(a)
-
-
-# queue = Queue(False)
-# nodes = [DoublePointerNode(i) for i in range(5)]
-# queue.enqueue(nodes[4])
-# queue.enqueue(nodes[3])
-# queue.enqueue(nodes[2])
-# queue.enqueue(nodes[1])
-# queue.enqueue(nodes[0])
-
-
-
-# nodes = [DoublePointerNode(i) for i in range(5)]
-# stack = Stack(False)
-# stack.push(nodes[4])
-# stack.push(nodes[3])
-# stack.push(nodes[2])
-# stack.push(nodes[1])
-# stack.push(nodes[0])
-
-
-
-
-
-
-# print(stack.pop().get_data())
